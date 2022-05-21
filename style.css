@@ -59,12 +59,11 @@ li {
 
 .image {
     
-    
-    margin-right: 20px;
-    
+    /*margin-right: 20px;*/ 
 }
-img {
-    max-width: 300px;
+
+.img {
+    width: 300px;
     height: 200px;
    
 }
@@ -75,8 +74,32 @@ img {
 
 .container {
     display: flex;
+    
 }
 
 
 
-/*section 1*/
+/*section 2*/
+
+
+.section-2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image1, .image2, .image3, .image4 {
+    width: 150px;
+    height: 150px;
+}
+
+.subtext {
+    color:#1F2937;
+    display: flex;
+}
+
+.heading-2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
