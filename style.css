@@ -3,10 +3,12 @@ body {
     flex-direction: column;
 }
 
+/*section 1*/
+
 header {
-    
     display: flex;
     margin-top: auto;
+    flex-direction: row;
 }
 .header-logo {
     font-size: 18px;
@@ -21,6 +23,7 @@ header {
 
 li {
     display: flex;
+   
 }
 
 .section-1 {
@@ -28,8 +31,23 @@ li {
     padding: 10px;
     background-color:#1F2937;
 }
+
+.subtext, li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
 img {
     max-width: 300px;
     height: 200px;
     float: right;
 }
+
+/*section 1*/
