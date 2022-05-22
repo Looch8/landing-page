@@ -85,21 +85,40 @@ li {
 .section-2 {
     display:flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
-.image1, .image2, .image3, .image4 {
-    width: 150px;
-    height: 150px;
-}
 
 .subtext {
     color:#1F2937;
     display: flex;
+    flex-direction: column;
 }
 
 .heading-2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+
+.four-image {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    display: flex;
+    
+}
+.image-subtext {
+    display: flex;
+    flex-direction: column;
+}
+.image-subtext, figcaption {
+    width:180px;
+    text-align: center; 
+}
+.image-subtext img {
+    height:200px;
+    border-radius: 10px;
+    width:200px;
 }
